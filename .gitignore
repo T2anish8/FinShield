@@ -1,0 +1,20 @@
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+node_modules/
+dist/
+*.db
+.pytest_cache/
+.mypy_cache/
+.vscode/
+
+# Generated datasets
+data/synthetic/transactions*.csv
+data/processed/*.csv
+
+# Trained model binaries
+models/*.joblib
